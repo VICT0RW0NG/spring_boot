@@ -1,17 +1,15 @@
-package com.aswatson.pogc;
+package com.aswatson.pogc.response;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonSetter;
 
-public class RealTimeStock {
+public class RealTimeStockResponse {
 
 	protected String bu;
 	
 	protected String storeNo;
 	
 	protected String requestedTime;
-	
-	protected String[] items;
 	
 	protected Product[] products;
 	
@@ -77,16 +75,5 @@ public class RealTimeStock {
 	public void setRequestedTime(String requestedTime) {
 		this.requestedTime = requestedTime;
 	}
-	
-	@JsonGetter("Items")
-	public String[] getItems() {
-		return items;
-	}
-	
-	@JsonSetter("Items")
-	public void setItems(String[] items) {
-		this.items = items;
-	}
-
 	
 }

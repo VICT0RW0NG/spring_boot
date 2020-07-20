@@ -1,4 +1,4 @@
-package com.aswatson.pogc;
+package com.aswatson.pogc.response;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonSetter;
@@ -8,18 +8,13 @@ public class Product {
 	
 	protected String item;
 	
-	
 	protected String soh;
-	
 	
 	protected String inTransitQty;
 
-	
 	protected String reservedQty;
 	
-	
 	protected String availableQty;
-	
 	
 	protected String openingDate;
 	
