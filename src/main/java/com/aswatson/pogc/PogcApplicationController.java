@@ -63,6 +63,10 @@ public class PogcApplicationController {
 	        
 	        products = productList.toArray(products);
 	        
+	        realTimeStockResponse.setResponseCode("00");
+	        
+	        realTimeStockResponse.setResponseMsg("Success");
+	        
 	        realTimeStockResponse.setProducts(products);
 		}
 	    return realTimeStockResponse;
