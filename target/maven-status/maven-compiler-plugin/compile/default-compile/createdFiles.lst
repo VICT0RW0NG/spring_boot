@@ -1,0 +1,5 @@
+com\aswatson\pogc\request\RealTimeStockRequest.class
+com\aswatson\pogc\response\Product.class
+com\aswatson\pogc\PogcApplicationController.class
+com\aswatson\pogc\response\RealTimeStockResponse.class
+com\aswatson\pogc\PogcApplication.class
