@@ -17,7 +17,7 @@ import com.aswatson.pogc.response.RealTimeStockResponse;
 public class PogcApplicationController {
 
 	
-	@PostMapping("/")
+	@PostMapping("/RSIMCentral/api")
 	@ResponseBody
 	public RealTimeStockResponse index(@RequestBody RealTimeStockRequest realTimeStock) { 
 		System.out.print("realTimeStock...." + realTimeStock.toString());
