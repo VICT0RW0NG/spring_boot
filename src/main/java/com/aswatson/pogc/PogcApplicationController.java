@@ -23,7 +23,7 @@ public class PogcApplicationController {
 		System.out.print("realTimeStock...." + realTimeStock.toString());
 		
 		RealTimeStockResponse realTimeStockResponse = new RealTimeStockResponse();
-		
+ 		
 		realTimeStockResponse.setStoreNo(realTimeStock.getStoreNo());
 		
 		realTimeStockResponse.setRequestedTime(realTimeStock.getRequestedTime());
